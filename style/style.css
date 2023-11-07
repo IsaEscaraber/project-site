@@ -14,22 +14,16 @@ main {
   margin: auto;
   padding: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.582);
-  padding: 20px;
 }
+
 .side {
   float: right;
   padding-left: 10px;
   padding-top: 20px;
 }
-div {
-  margin: auto;
-  width: 200px;
-  background-color: #37006b;
-  padding: 20px;
-}
 .banner {
   padding: 20px 0px;
-  margin: auto;
+
   width: 100%;
 }
 
@@ -63,4 +57,8 @@ p {
   padding: 20px;
   text-indent: 30px;
   line-height: 1.5em;
+}
+#back {
+  background-color: white;
+  margin-top: 40px;
 }
