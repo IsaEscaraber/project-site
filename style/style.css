@@ -30,6 +30,7 @@ main {
 h1 {
   color: #37006b;
   font-size: 2em;
+  font-weight: bolder;
 }
 
 h2 {
