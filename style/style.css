@@ -10,19 +10,23 @@
 main {
   background-color: white;
   max-width: 800px;
-  min-width: 320px;
+  min-width: 280px;
   margin: auto;
-  padding: 10px;
+  padding: 0px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.582);
+  border-radius: 15px;
 }
-
+header {
+  padding-top: 20px;
+}
 .side {
   float: right;
   padding-left: 20px;
+  padding-right: 10px;
   padding-top: 20px;
 }
 .banner {
-  padding: 20px 0px;
+  padding: 20px 0px 5px 0px;
 
   width: 100%;
 }
@@ -62,4 +66,23 @@ p {
 #back {
   background-color: white;
   margin-top: 40px;
+}
+.videoSite {
+  margin: 0px 0px;
+  /*I can use negative number to measure the magin in case of the body already has margin. Ex: "body: 20px;" and I want to have one div without any margin, I need to use "margin: 0px -20px;" removing the same quantity of margin*/
+
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 56%;
+}
+div.videoSite iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+footer {
+  padding-bottom: 20px;
 }
